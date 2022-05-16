@@ -33,7 +33,14 @@ This script is a example to capture screen in Lenovo XClarity Controller. When t
     password=
     ```
 
-1. Dobule click `runAutoCapture.bat` 
+1. Copy `runAutoCapture.bat.sample` and rename to `runAutoCapture-{CONFIG_FILENAME}.bat`
+
+1. Edit `runAutoCapture-{CONFIG_FILENAME}.bat`
+
+1. Add `{CONFIG_FILENAME}.ini` behind `py capture.py`
+    ```
+    py capture.py server.ini
+    ```
 
 
 # Screen 

@@ -1,2 +1,2 @@
-config.ini
-result/*
+*.ini
+*-result/*
